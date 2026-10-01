@@ -1,0 +1,48 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "petty-court-by-kaushik-immadisetty",
+  "version": "1.0.0",
+  "description": "Settles petty everyday arguments with a dramatic, official court ruling. Picks a winner and gives the loser a ridiculous, harmless sentence.",
+  "author": {
+    "name": "Kaushik Immadisetty",
+    "url": "https://github.com/kaushikimmadisetty"
+  },
+  "homepage": "https://github.com/kaushikimmadisetty/Petty-Court-by-Kaushik-Immadisetty",
+  "repository": "https://github.com/kaushikimmadisetty/Petty-Court-by-Kaushik-Immadisetty",
+  "keywords": [
+    "argument",
+    "debate",
+    "roommates",
+    "friends",
+    "humor",
+    "ruling",
+    "judge"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Petty Court by Kaushik Immadi",
+        "shortDescription": "Settle silly arguments",
+        "longDescription": "Petty Court treats your tiny disputes like the trial of the century. Describe a small argument with a roommate, partner, friend, coworker or family member (who ate the leftovers, whose turn it is to do the dishes, what temperature the thermostat should be) and the Honorable Judge of Petty Court issues an official ruling. Every ruling names a winner, explains the reasoning with courtroom drama, and sentences the loser to something ridiculous but harmless.\n\nLimitations: Petty Court is for entertainment only and is not legal, relationship or professional advice. It only hears petty cases. Disputes involving safety, abuse, serious money, legal matters or health get a short, kind redirect instead of a joke ruling.",
+        "developerName": "Kaushik Immadisetty",
+        "category": "Lifestyle",
+        "capabilities": [
+          "Settles petty disputes with a winner",
+          "Writes dramatic courtroom-style rulings",
+          "Hands out harmless, funny sentences"
+        ],
+        "websiteURL": "https://github.com/kaushikimmadisetty/Petty-Court-by-Kaushik-Immadisetty",
+        "supportURL": "https://github.com/kaushikimmadisetty/Petty-Court-by-Kaushik-Immadisetty/issues",
+        "privacyPolicyURL": "https://github.com/kaushikimmadisetty/Petty-Court-by-Kaushik-Immadisetty/blob/main/PRIVACY.md",
+        "defaultPrompt": [
+          "My roommate ate my leftover pizza and said it didn't have a name on it.",
+          "My partner says the thermostat should be 68. I say 72. Who's right?",
+          "My friend always says 'on my way' when they haven't left yet. Rule on it."
+        ],
+        "brandColor": "#5B21B6",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
